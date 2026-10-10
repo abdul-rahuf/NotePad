@@ -86,7 +86,7 @@ function App() {
           value={title}
           maxLength={100}
           onChange={(e) => setTitle(e.target.value)}
-          className="mb-3 w-full rounded-lg border p-3 outline-none focus:border-amber-500"
+          className="mb-3 w-full rounded-lg border p-3 outline-none focus:border-blue-500"
         />
 
         <textarea
@@ -94,7 +94,7 @@ function App() {
           value={content}
           maxLength={5000}
           onChange={(e) => setContent(e.target.value)}
-          className="mb-3 w-full rounded-lg border p-3 outline-none focus:border-black-500"
+          className="mb-3 w-full rounded-lg border p-3 outline-none focus:border-blue-500"
           rows="4"
         />
 
